@@ -163,7 +163,7 @@ body {
   #navbar ul {
     padding-right: 20px; }
     #navbar ul a {
-      font-size: 14px; }
+      font-size: 12px; }
 
   #welcome #line {
     height: 100px; }
@@ -175,7 +175,7 @@ body {
   #work {
     grid-template-columns: 100%; }
     #work .box {
-      width: 325px; }
+      width: 300px; }
 
   #contact header {
     font-size: 25px; }
@@ -184,10 +184,10 @@ body {
     #contact ul li {
       list-style: none; }
       #contact ul li a {
-        font-size: 12px;
+        font-size: 10px;
         padding-inline: 10px; }
         #contact ul li a img {
-          width: 40px;
+          width: 35px;
           height: auto; } }
 
 /*# sourceMappingURL=master.css.map */

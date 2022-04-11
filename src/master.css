@@ -158,31 +158,36 @@ body {
         color: #a4161a; }
 
 @media (max-width: 480px) {
+  #navbar p {
+    font-size: 16px; }
   #navbar ul {
     padding-right: 20px; }
+    #navbar ul a {
+      font-size: 14px; }
 
   #welcome #line {
     height: 100px; }
   #welcome #title h1 {
-    font-size: 30px; }
+    font-size: 24px; }
   #welcome #title p {
-    font-size: 12px; }
+    font-size: 8px; }
 
   #work {
     grid-template-columns: 100%; }
     #work .box {
-      width: 400px; }
+      width: 325px; }
 
+  #contact header {
+    font-size: 25px; }
   #contact ul {
     padding-top: 10px; }
     #contact ul li {
       list-style: none; }
       #contact ul li a {
+        font-size: 12px;
         padding-inline: 10px; }
         #contact ul li a img {
-          width: 60px;
-          height: auto; }
-        #contact ul li a span {
-          transition: 0.5s; } }
+          width: 40px;
+          height: auto; } }
 
 /*# sourceMappingURL=master.css.map */

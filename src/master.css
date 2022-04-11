@@ -9,7 +9,7 @@ html {
 body {
   font-family: 'Roboto Mono' ,Poppins, sans-serif;
   font-size: 16px;
-  background-color: #161a1d; }
+  background: linear-gradient(to right, #161a1d, #000000); }
 
 #navbar {
   display: flex;
@@ -19,10 +19,10 @@ body {
   width: 100%;
   height: 40px;
   padding: 10px;
-  background-color: #161a1d;
-  z-index: 99; }
+  z-index: 99;
+  background: linear-gradient(to right, #161a1d, #000000); }
   #navbar p {
-    font-size: 20px;
+    font-size: 30px;
     color: #a4161a; }
   #navbar ul {
     display: flex;
@@ -32,7 +32,8 @@ body {
       text-decoration: none;
       color: white;
       padding-inline: 10px;
-      transition: 0.5s; }
+      transition: 0.5s;
+      font-size: 25px; }
     #navbar ul a:hover {
       background-color: #a4161a;
       color: #161a1d;
@@ -43,34 +44,31 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100vh;
-  background: #161a1d; }
+  height: 100vh; }
   #welcome #line {
     width: 2px;
     background-color: #a4161a;
-    height: 120px;
-    margin: 10px; }
+    height: 180px;
+    margin: 15px; }
   #welcome #title h1 {
     color: white;
-    font-size: 40px; }
+    font-size: 60px; }
     #welcome #title h1 span {
       color: #a4161a; }
   #welcome #title p {
     color: white;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 100; }
 
 #work-header {
   color: white;
   text-align: center;
-  background-color: #161a1d;
   padding-top: 60px;
-  font-size: 25px; }
+  font-size: 35px; }
 
 #work {
   display: grid;
   padding-top: 20px;
-  background-color: #161a1d;
   grid-template-columns: repeat(2, 50%); }
   #work .box {
     justify-self: center;
@@ -83,7 +81,7 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: white;
-    width: 600px;
+    width: 800px;
     height: auto; }
     #work .box img {
       border-radius: 10px;
@@ -108,33 +106,34 @@ body {
   flex-direction: column;
   justify-contet: center;
   align-items: center;
-  background-color: #161a1d;
-  padding: 20px; }
+  margin: 20px; }
   #more header {
     color: #a4161a;
-    font-size: 18px; }
+    font-size: 30px; }
   #more #links {
     padding-top: 10px; }
     #more #links a {
       text-decoration: none;
       color: white;
       padding-inline: 10px;
-      transition: 0.5s; }
+      transition: 0.5s;
+      font-size: 25px; }
     #more #links a:hover {
-      font-size: 20px;
+      background-color: #a4161a;
       transition: 0.5s; }
 
 #contact {
-  background-color: #161a1d;
-  padding-top: 60px;
   width: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  justify-content: center; }
   #contact header {
     color: #a4161a;
-    font-size: 30px;
-    font-weight: bolder; }
+    font-size: 40px;
+    font-weight: bolder;
+    padding-bottom: 40px; }
   #contact ul {
     padding-top: 10px;
     padding-bottom: 30px;
@@ -147,9 +146,10 @@ body {
         padding-inline: 30px;
         display: flex;
         flex-direction: column;
-        align-items: center; }
+        align-items: center;
+        font-size: 30px; }
         #contact ul li a img {
-          width: 80px;
+          width: 100px;
           height: auto; }
         #contact ul li a span {
           transition: 0.5s; }
@@ -163,7 +163,8 @@ body {
   #navbar ul {
     padding-right: 20px; }
     #navbar ul a {
-      font-size: 12px; }
+      font-size: 12px;
+      padding-inline: 5px; }
 
   #welcome #line {
     height: 100px; }
@@ -172,10 +173,18 @@ body {
   #welcome #title p {
     font-size: 8px; }
 
+  #work-header {
+    font-size: 18px; }
+
   #work {
     grid-template-columns: 100%; }
     #work .box {
       width: 300px; }
+
+  #more header {
+    font-size: 18px; }
+  #more #links a {
+    font-size: 12px; }
 
   #contact header {
     font-size: 25px; }
@@ -187,7 +196,7 @@ body {
         font-size: 10px;
         padding-inline: 10px; }
         #contact ul li a img {
-          width: 35px;
+          width: 40px;
           height: auto; } }
 
 /*# sourceMappingURL=master.css.map */

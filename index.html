@@ -9,10 +9,11 @@
 		<link rel="stylesheet" href="src/master.css">
 		<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 		<link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	</head>
 <body>
 
-	<nav id="navbar">
+	<nav id="navbar" data-aos="fade">
 		<p>.valentino</p>
 		<ul>
 			<li><a href="#welcome">.about()</a></li>
@@ -22,8 +23,8 @@
 	</nav>
 
 	<section id="welcome">
-		<div id="line"></div>
-		<div id="title">
+		<div id="line"  data-aos="slide-up"></div>
+		<div id="title" data-aos="slide-left">
 			<h1>valentino<span>.portfolio()</span></h1>
 			<br>
 			<p>valentino.machuca</p>
@@ -33,7 +34,7 @@
 
 	<header id="work-header">My work | HTML & CSS</header>
 
-	<section id="work">
+	<section id="work"  data-aos="fade-left">
 		<a class="box" href="https://valentino-machuca.github.io/nba-latam/" target="_blank">
 			<img src="templates/nba-latam.png">
 			<p><span><</span>nba-latam<span>/></span></p>
@@ -55,7 +56,7 @@
 		</a>
 	</section>
 
-	<section id="more">
+	<section id="more"  data-aos="fade-left">
 		<header>See all here/></header>
 		<element id="links">
 			<a href="https://github.com/valentino-machuca">GitHub</a>
@@ -64,8 +65,8 @@
 	</section>
 
 	<footer id="contact">
-		<header>Contact me</header>
-		<ul>
+		<header data-aos="fade-left">Contact me</header>
+		<ul data-aos="fade-left">
 			<li><a href="https://www.instagram.com/valentino_machuca/" target="_blank">
 				<img src="templates/ig.png">
 				<p><span><</span>Instagram<span>/></span></p>
@@ -89,5 +90,11 @@
 		</ul>
 	</footer>
 
+
+	<!--Scripts-->
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+    	AOS.init();
+    </script>
 </body>
 </html>

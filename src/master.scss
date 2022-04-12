@@ -213,6 +213,89 @@ body{
 	}
 }
 
+//Responsive Design
+
+//Tablets verticales y celulares horizontales.
+@media (max-width: 767px) {
+
+		#navbar{
+
+		ul{
+			padding-right: 20px;
+			a{
+				font-size: 20px;
+				padding-inline: 5px;
+			}
+		}
+	}
+
+	#welcome{
+		#line{
+			height: 100px;
+		}
+
+		#title{
+
+			h1{
+				font-size: 35px;
+			}
+
+			p{
+				font-size: 20px;
+			}
+		}
+	}
+
+	#work-header{
+		font-size: 32px;
+	}
+
+	#work{
+		grid-template-columns: 100%;
+
+		.box{
+			width: 700px;
+		}
+	}
+
+	#more{
+
+		header{
+			font-size: 32px;
+		}
+
+		#links{
+
+			a{
+				font-size: 24px;
+			}	
+			
+		}
+
+	}
+
+	#contact{
+
+		header{
+			font-size: 32px;
+		}
+
+		ul{
+		padding-top: 10px;
+			li{
+				a{
+					font-size: 22px;
+					padding-inline: 10px;
+					img{
+						width: 60px;
+						height: auto;
+					}
+				}
+			}
+		}
+	}
+}
+
 //Celulares verticales
 @media (max-width: 480px){
 
@@ -252,8 +335,6 @@ body{
 	}
 
 	#work{
-		grid-template-columns: 100%;
-
 		.box{
 			width: 300px;
 		}

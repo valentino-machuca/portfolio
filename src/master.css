@@ -157,6 +157,43 @@ body {
         transition: 0.5s;
         color: #a4161a; }
 
+@media (max-width: 767px) {
+  #navbar ul {
+    padding-right: 20px; }
+    #navbar ul a {
+      font-size: 20px;
+      padding-inline: 5px; }
+
+  #welcome #line {
+    height: 100px; }
+  #welcome #title h1 {
+    font-size: 35px; }
+  #welcome #title p {
+    font-size: 20px; }
+
+  #work-header {
+    font-size: 32px; }
+
+  #work {
+    grid-template-columns: 100%; }
+    #work .box {
+      width: 700px; }
+
+  #more header {
+    font-size: 32px; }
+  #more #links a {
+    font-size: 24px; }
+
+  #contact header {
+    font-size: 32px; }
+  #contact ul {
+    padding-top: 10px; }
+    #contact ul li a {
+      font-size: 22px;
+      padding-inline: 10px; }
+      #contact ul li a img {
+        width: 60px;
+        height: auto; } }
 @media (max-width: 480px) {
   #navbar p {
     font-size: 16px; }
@@ -176,10 +213,8 @@ body {
   #work-header {
     font-size: 18px; }
 
-  #work {
-    grid-template-columns: 100%; }
-    #work .box {
-      width: 300px; }
+  #work .box {
+    width: 300px; }
 
   #more header {
     font-size: 18px; }

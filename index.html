@@ -23,8 +23,8 @@
 	</nav>
 
 	<section id="welcome">
-		<div id="line"  data-aos="slide-up"></div>
-		<div id="title" data-aos="slide-left">
+		<div id="line"  data-aos="fade-up"></div>
+		<div id="title" data-aos="fade-up">
 			<h1>valentino<span>.portfolio()</span></h1>
 			<br>
 			<p>valentino.machuca</p>
@@ -34,7 +34,7 @@
 
 	<header id="work-header">My work | HTML & CSS</header>
 
-	<section id="work"  data-aos="fade-left">
+	<section id="work"  data-aos="fade-up">
 		<a class="box" href="https://valentino-machuca.github.io/nba-latam/" target="_blank">
 			<img src="templates/nba-latam.png">
 			<p><span><</span>nba-latam<span>/></span></p>
@@ -56,9 +56,9 @@
 		</a>
 	</section>
 
-	<section id="more"  data-aos="fade-left">
-		<header>See all here/></header>
-		<element id="links">
+	<section id="more" >
+		<header data-aos="fade-left">See all here/></header>
+		<element id="links" data-aos="fade-left">
 			<a href="https://github.com/valentino-machuca">GitHub</a>
 			<a href="https://codepen.io/valentino-machuca">CodePen.io</a>
 		</element>
@@ -66,7 +66,7 @@
 
 	<footer id="contact">
 		<header data-aos="fade-left">Contact me</header>
-		<ul data-aos="fade-left">
+		<ul data-aos="fade-right">
 			<li><a href="https://www.instagram.com/valentino_machuca/" target="_blank">
 				<img src="templates/ig.png">
 				<p><span><</span>Instagram<span>/></span></p>
@@ -94,7 +94,7 @@
 	<!--Scripts-->
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 	<script>
-    	AOS.init();
+    	AOS.init( {delay: 0, duration: 2000} )
     </script>
 </body>
 </html>
